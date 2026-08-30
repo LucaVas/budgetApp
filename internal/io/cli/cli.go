@@ -7,10 +7,12 @@ import (
 )
 
 type Bank int
+
 const (
 	Luminor Bank = iota
 	Revolut
 )
+
 var bankName = map[string]Bank{
 	"luminor": Luminor,
 	"revolut": Revolut,
